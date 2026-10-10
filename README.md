@@ -1,3 +1,13 @@
+## 👨‍💻 Hakkımda
+
+Merhaba! Ben **Yusuf Efe**, 16 yaşındayım. Yazılım geliştirme ve web tasarımına ilgi duyan, bu alanlarda kendini geliştirmeye çalışan bir öğrenciyim.
+
+Bu projeyi, okul ödevim kapsamında HTML, CSS ve JavaScript kullanarak hazırladım. Amacım, öğrendiğim bilgileri uygulamaya dökmek, web geliştirme konusunda deneyim kazanmak ve kendimi daha da geliştirmek.
+
+Projemde, dört kişilik bağımsız oyun geliştirme ekibimiz **Anabolic Studio** için modern ve kullanıcı dostu bir tanıtım web sitesi tasarladım. Geliştirme sürecinde hem tasarım hem de kodlama becerilerimi ilerletirken Git ve GitHub kullanmayı da öğrendim.
+
+Bu proje, yazılım geliştirme yolculuğumda attığım adımlardan birini temsil ediyor.
+
 # ANABOLIC STUDIO
 ### Independent Game Development Studio
 
