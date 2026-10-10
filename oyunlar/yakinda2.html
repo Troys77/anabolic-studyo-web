@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anabolic - Kırık Düş</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" href="../assets/anabolic-logo.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="../index.html">
+          <img src=".././assets/anabolic-logo.png" alt="Anabolic Studio" />
+        </a>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="../index.html">Ana Sayfa</a></li>
+          <li><a href="../oyunlar.html">Oyunlarımız</a></li>
+          <li><a href="../yakinda.html">Yakında</a></li>
+          <li><a href="../haberler.html">Haberler</a></li>
+          <li><a href="../studyomuz.html">Stüdyomuz</a></li>
+          <li><a href="../iletisim.html">İletişim</a></li>
+        </ul>
+      </nav>
+
+      <div class="baglanti">
+        <a href="https://fiuby.com/games/kirik-dus-1" target="_blank">
+          <img src=".././assets/fiuby.png" alt="Fiuby Sitesi" />
+        </a>
+        <a href="https://www.linkedin.com/in/yusufefedemircii/" target="_blank">
+          <img src=".././assets/linkledln.png" alt="Linkledln Sayfam" />
+        </a>
+      </div>
+    </header>
+
+    <section class="oyun">
+      <div class="oyun-gorsel">
+        <div class="oyun-butonlar">
+          <img
+            id="anaGorsel"
+            src="../assets/oyunyakinda.png"
+            alt="Ana Oyun Görseli"
+            class="ana-gorsel"
+          />
+
+          <button class="geri" onclick="oncekiResim()">❮</button>
+          <button class="ileri" onclick="sonrakiResim()">❯</button>
+        </div>
+
+        <div class="kucuk-gorseller">
+          <img
+            src="../assets/oyunyakinda.png"
+            alt="Oyun Görsel 2"
+            onclick="resimDegistir(0)"
+          />
+          <img
+            src="../assets/oyunyakinda.png"
+            alt="Oyun Görsel 3"
+            onclick="resimDegistir(1)"
+          />
+          <img
+            src="../assets/oyunyakinda.png"
+            alt="Oyun Görsel 4"
+            onclick="resimDegistir(2)"
+          />
+          <img
+            src="../assets/oyunyakinda.png"
+            alt="Oyun Görsel 5"
+            onclick="resimDegistir(3)"
+          />
+          <img
+            src="../assets/oyunyakinda.png"
+            alt="Oyun Görsel 6"
+            onclick="resimDegistir(4)"
+          />
+          <img
+            src="../assets/oyunyakinda.png"
+            alt="Oyun Görsel 7"
+            onclick="resimDegistir(5)"
+          />
+        </div>
+      </div>
+
+      <div class="oyun-bilgi">
+        <h1>YAKINDA...</h1>
+
+        <p>
+          Sürprizlerle dolu yeni oyunumuz için hazırlıklarımız devam ediyor.
+          Takipte kalın!
+        </p>
+
+        <a href="../index.html" class="oyuna-git"> OYUNA GİT </a>
+   
+        </a>
+      </div>
+    </section>
+
+    <script>
+      const resimler = [
+        "../assets/oyunyakinda.png",
+        "../assets/oyunyakinda.png",
+        "../assets/oyunyakinda.png",
+        "../assets/oyunyakinda.png",
+        "../assets/oyunyakinda.png",
+        "../assets/oyunyakinda.png",
+      ];
+
+      let aktif = 0;
+
+      function resimDegistir(index) {
+        aktif = index;
+        document.getElementById("anaGorsel").src = resimler[aktif];
+      }
+
+      function sonrakiResim() {
+        aktif = (aktif + 1) % resimler.length;
+        resimDegistir(aktif);
+      }
+
+      function oncekiResim() {
+        aktif = (aktif - 1 + resimler.length) % resimler.length;
+        resimDegistir(aktif);
+      }
+
+      setInterval(() => {
+        sonrakiResim();
+      }, 2000);
+    </script>
+  </body>
+</html>

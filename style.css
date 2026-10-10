@@ -378,3 +378,150 @@ main h1 {
 .ileri {
   right: 15px;
 }
+
+.yakinda-sayfa {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 140px 5% 80px;
+  box-sizing: border-box;
+}
+
+.yakinda-baslik {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.yakinda-baslik h1 {
+  color: white;
+  font-size: 38px;
+  font-weight: 800;
+  margin: 0 0 15px;
+}
+
+.yakinda-baslik p {
+  color: #aaa;
+  font-size: 18px;
+}
+
+.yeni-proje {
+  max-width: 1060px;
+  min-height: 0px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #24152e;
+  border: 2px solid #a855f7;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgb(168, 85, 247, 0.15);
+  transition: 0.3s ease;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yeni-proje:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgb(168, 85, 247, 0.3);
+}
+
+.proje-icon {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.proje-icon img {
+  width: 30%;
+  margin: 0 auto -50px;
+  object-fit: contain;
+  display: block;
+}
+.proje-durum {
+  display: block;
+  color: #a855f7;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.yeni-proje h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 25px;
+}
+
+.yeni-proje p {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.cizgi {
+  width: 550px;
+  height: 3px;
+  min-height: 3px;
+  background-color: #a855f7;
+  margin: 35px auto 25px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.proje-alt {
+  display: block;
+  color: #888888;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: auto;
+}
+
+.haberler {
+  max-width: 1000px;
+  margin: 35px auto 0;
+  padding: 40px 30px;
+  background-color: #1b1b1b;
+  border: 1px solid #444;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.haberler:hover {
+  border-color: #a855f7;
+  box-shadow: 0 5px 25px rgba(168, 85, 247, 0.15);
+}
+
+.haberler h2 {
+  color: #a855f7;
+  font-size: 25px;
+  font-weight: 800;
+  margin: 0 0 15px;
+}
+
+.haberler p {
+  color: #ccc;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0 0 25px;
+}
+
+.haberler-buton {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #a855f7;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.haberler-buton:hover {
+  background-color: #9333ea;
+  transform: translateY(-3px);
+}
