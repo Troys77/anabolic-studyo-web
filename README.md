@@ -1,6 +1,7 @@
 ## 👨‍💻 Hakkımda
 
-Merhaba! Ben **Yusuf Efe**, 16 yaşındayım. Yazılım geliştirme ve web tasarımına ilgi duyan, bu alanlarda kendini geliştirmeye çalışan bir öğrenciyim.
+Merhaba! Ben **Yusuf Efe**, 16 yaşındayım. Yazılım geliştirme ve editörlük ile uğraşıyorum
+ ve bu alanlarda kendini geliştirmeye çalışan bir öğrenciyim.
 
 Bu projeyi, okul ödevim kapsamında HTML, CSS ve JavaScript kullanarak hazırladım. Amacım, öğrendiğim bilgileri uygulamaya dökmek, web geliştirme konusunda deneyim kazanmak ve kendimi daha da geliştirmek.
 
