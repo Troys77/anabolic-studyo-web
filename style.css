@@ -1,5 +1,5 @@
 body {
-  background-color: #121212;
+  background-color: #090909;
   color: #fff;
   overflow-x: hidden;
   margin: 0;
@@ -524,4 +524,112 @@ main h1 {
 .haberler-buton:hover {
   background-color: #9333ea;
   transform: translateY(-3px);
+}
+
+.anasayfa-studyo {
+  max-width: 1100px;
+  margin: -50px auto 80px;
+  padding: 40px 40px;
+  text-align: center;
+  box-sizing: border-box;
+  background: #24152e;
+  border: 1px solid #a855f7;
+  border-radius: 16px;
+}
+
+.anasayfa-baslik {
+  display: block;
+  color: #a855f7;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.anasayfa-studyo h2,
+.fragman-baslik h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 25px;
+}
+
+.anasayfa-studyo p,
+.fragman-baslik p {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.studyo-buton {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #a855f7;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.studyo-buton:hover {
+  background-color: #9333ea;
+  transform: translateY(-3px);
+}
+
+.anabolic-fragman {
+  max-width: 1100px;
+  margin: 120px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.fragman-baslik {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.fragman-baslik .anasayfa-etiket {
+  display: block;
+  color: #a855f7;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.fragman-baslik h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 25px;
+}
+
+.fragman-baslik p {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.fragman {
+  width: 100%;
+  margin-top: 35px;
+  overflow: hidden;
+  border: 2px solid #a855f7;
+  border-radius: 16px;
+  background-color: #0a0a0a;
+  box-shadow: 0 10px 40px rgba(168, 85, 247, 0.15);
+  box-sizing: border-box;
+}
+
+.fragman video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
 }
