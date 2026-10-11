@@ -799,3 +799,115 @@ main h1 {
 .iletisim-formu button:hover {
   background-color: #a855f7;
 }
+
+.hakkimizda {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 145px 20px 90px;
+  box-sizing: border-box;
+}
+
+.hakkimizda-baslik {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.hakkimizda-baslik span {
+  color: #a855f7;
+  letter-spacing: 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.hakkimizda-baslik h1 {
+  color: white;
+  font-size: 38px;
+  margin: 18px 0;
+}
+
+.hakkimizda-baslik p {
+  color: #aaa;
+  font-size: 16px;
+}
+
+.hakkimizda-kart {
+  background-color: #21132d;
+  border: 1px solid #59416a;
+  border-radius: 16px;
+  padding: 35px 40px 20px;
+  margin: 25px;
+}
+
+.kart-etiket {
+  color: #a855f7;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.hakkimizda-kart h2 {
+  color: white;
+  font-size: 28px;
+  margin: 22px 0;
+  font-weight: 900;
+}
+
+.hakkimizda-kart p {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.hakkimizda-cizgi {
+  height: 1px;
+  background-color: #59416a;
+  margin: 30px 0 20px;
+}
+
+.ekip-bilgi {
+  color: #aaa;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.ekip-bilgi img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.hakkimizda-iletisim {
+  width: 95%;
+  margin: 0 auto 25px;
+  box-sizing: border-box;
+  background-color: #17121f;
+  border: 1px solid #a855f7;
+  border-radius: 16px;
+  padding: 45px;
+  text-align: center;
+}
+
+.hakkimizda-iletisim h2 {
+  font-size: 28px;
+  margin: 0 0 18px;
+}
+
+.hakkimizda-iletisim p {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.hakkimizda-iletisim a {
+  display: inline-block;
+  background-color: #9333ea;
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+.hakkimizda-iletisim a:hover {
+  background-color: #a855f7;
+}
