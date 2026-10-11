@@ -633,3 +633,169 @@ main h1 {
   aspect-ratio: 16 / 9;
   object-fit: contain;
 }
+
+.iletisim-ust {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 20px 80px;
+  box-sizing: border-box;
+}
+
+.anabolic-baslik {
+  display: block;
+  text-align: center;
+  color: #a855f7;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.iletisim-baslik {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.iletisim-baslik h3 {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0 0 15px;
+}
+
+.iletisim-baslik p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.iletisim {
+  display: flex;
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.form-sol,
+.sosyal-sag {
+  flex: 1;
+  min-width: 0;
+  padding: 40px;
+  border-radius: 14px;
+  box-sizing: border-box;
+}
+
+.form-sol {
+  background: #1b1b1b;
+  border: 1px solid #444;
+}
+
+.form-sol h4 {
+  font-size: 24px;
+  margin: 0 0 15px;
+}
+
+.form-sol p {
+  font-size: 15px;
+  margin: 0 0 25px;
+}
+
+.sosyal-sag {
+  background: #24152e;
+  border: 1px solid #a855f7;
+}
+
+.sosyal-sag h4 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.sosyal-sag p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.cizgi-sosyal {
+  width: 100%;
+  height: 3px;
+  background-color: #a855f7;
+  margin: 30px 0;
+}
+
+.sosyal-medya {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sosyal-medya a {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  gap: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.sosyal-medya img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.sosyal-medya a:hover {
+  color: #a855f7;
+}
+
+.iletisim-formu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.iletisim-formu label {
+  color: white;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.iletisim-formu input,
+.iletisim-formu textarea {
+  color: white;
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #121212;
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-family: inherit;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.iletisim-formu input:focus,
+.iletisim-formu textarea:focus {
+  outline: none;
+  border-color: #a855f7;
+}
+
+.iletisim-formu textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+.iletisim-formu button {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #9333ea;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.iletisim-formu button:hover {
+  background-color: #a855f7;
+}
