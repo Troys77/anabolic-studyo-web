@@ -128,10 +128,7 @@
         aktif = (aktif - 1 + resimler.length) % resimler.length;
         resimDegistir(aktif);
       }
-
-      setInterval(() => {
-        sonrakiResim();
-      }, 2000);
+      setInterval(sonrakiResim, 2000);
     </script>
   </body>
 </html>
